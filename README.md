@@ -5,9 +5,18 @@ Simulate sleep/wake patterns in groups of flies
 
 Implement an agent based model of group sleep in the flyhostel with these three rules:
 
-1) Flies can wake up spontaneously with probability p
-2) Flies can wake up because of an interaction with another fly
-3) Flies stay awake for a given bout length 
+1) Flies can wake up spontaneously with probability $P_s$
+2) Flies can wake up because of an interaction with another fly $P_i$
+3) Flies stay awake for a given bout length $B$
+
+
+**parameters.py**
+
+```
+"movement_bout_length": 100,
+"probability_interaction_movement": 0.5,
+"probability_spontaneous_movement": 0.1,
+```
 
 ![model_schematic](assets/model_schematic.png)
 
