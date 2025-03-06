@@ -3,6 +3,10 @@
 Simulate sleep/wake patterns in groups of flies
 
 
+This module recreates this model of sleep
+
+![model_schematic](assets/model_schematic.png)
+
 ## Quickstart
 
 ```
