@@ -43,3 +43,4 @@ options(repr.plot.width=20, repr.plot.height=10)
 ggplot(data=df, aes(x=number_of_animals, y=asleep)) + geom_smooth() + geom_point()
 ```
 
+![sleep_amount_simulation](assets/sleep_amount_simulation.svg)
