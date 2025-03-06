@@ -5,7 +5,7 @@ Simulate sleep/wake patterns in groups of flies
 
 ## Quickstart
 
-python```
+```
 import pandas as pd
 import glob
 import os.path
@@ -32,7 +32,7 @@ df=pd.concat(data, axis=0).reset_index(drop=True)
 df.to_csv("modelling_result.csv")
 ```
 
-R```
+```
 library(data.table)
 library(ggplot2)
 library(ggprism)
