@@ -3,7 +3,11 @@
 Simulate sleep/wake patterns in groups of flies
 
 
-This module recreates this model of sleep
+Implement an agent based model of group sleep in the flyhostel with these three rules:
+
+1) Flies can wake up spontaneously with probability p
+2) Flies can wake up because of an interaction with another fly
+3) Flies stay awake for a given bout length 
 
 ![model_schematic](assets/model_schematic.png)
 
